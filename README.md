@@ -37,11 +37,11 @@ go run main.go
 ```
 
 
-This command starts the Go server on `http://localhost:8080`. The server handles both serving the frontend static files and API requests.
+This command starts the Go server on `http://localhost:8888`. The server handles both serving the frontend static files and API requests.
 
 ### 3. Access the Application
 
-Open your web browser and go to `http://localhost:8080`. You should see the application's main page with a "Say Hello!" button.
+Open your web browser and go to `http://localhost:8888`. You should see the application's main page with a "Say Hello!" button.
 
 ### 4. Interact with the Application
 
