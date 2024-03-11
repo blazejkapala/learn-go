@@ -22,12 +22,10 @@ To get the application running on your local machine, follow these steps:
 First, clone this repository to your local machine using Git:
 
 ```
-git clone https://yourrepositoryurl.com/project.git
+git clone https://github.com/blazejkapala/learn-go.git
 cd project
 ```
 
-
-Replace `https://yourrepositoryurl.com/project.git` with the actual URL of your repository.
 
 ### 2. Run the Go Server
 
