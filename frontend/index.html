@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World App</title>
+    <!-- Dołączanie HTMX -->
+    <script src="https://unpkg.com/htmx.org"></script>
+</head>
+<body>
+    <h1>HTMX + Go: Hello World App</h1>
+    <button hx-get="/hello" hx-target="#hello-world" hx-swap="outerHTML" hx-trigger="click, click from:#hello-world:not(:empty) -> set:#hello-world:innerHTML=''">
+        Say Hello!
+    </button>
+    <div id="hello-world"></div>
+    <input type="text" name="q"
+    hx-get="/trigger_delay"
+    hx-trigger="keyup changed delay:500ms"
+    hx-target="#search-results"
+    placeholder="Search..."
+>
+<div id="search-results"></div>   
+    
+ 
+</body>
+</html>
